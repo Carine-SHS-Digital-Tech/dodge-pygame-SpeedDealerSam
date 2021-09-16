@@ -7,7 +7,7 @@ class FallingObject(pygame.sprite.Sprite):
     def _init_(self):
         pygame.sprite.Sprite._init_(self)
         self.timecreated = pygame.time.get_ticks()
-        self.image = pygame.Surface([30,30])\
+        self.image = pygame.Surface([30,30])
         self.image.set_colorkey(black)
 
         self.rect = self.image.get_rect()
